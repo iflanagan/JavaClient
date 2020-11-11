@@ -18,7 +18,7 @@ Enter some text and hit return
 
 See the error generated locally and in Rollbar.
 
-NOTE: the error is that the server has an arbitrary sleep called in Echoer.java the fix on the client side would be to increase the socket client timeout from 2 secs to 4 seconds.
+NOTE: the error is that the server has an arbitrary sleep called on line 33 in  Echoer.java the fix on the client side would be to increase the socket client timeout from 2 secs to 4 seconds.
 
 
 
